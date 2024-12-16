@@ -1,133 +1,252 @@
-
-
 <!DOCTYPE html>
-<html lang="es">
-
-
-
+<html lang="en">
 
 <head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Linea *765</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>P�gina de Inicio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
+  <!-- Favicons
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-        nav {
-            background-color: #333;
-            overflow: hidden;
-        }
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+ -->
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-        nav a {
-            float: left;
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 20px;
-            text-decoration: none;
-        }
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
-        nav a:hover {
-            background-color: #575757;
-        }
-
-        .content {
-            padding: 20px;
-        }
-
-        .tab-content {
-            display: none;
-        }
-
-        .tab-content.active {
-            display: block;
-        }
-    </style>
+  <!-- =======================================================
+  * Template Name: ZenBlog
+  * Template URL: https://bootstrapmade.com/zenblog-bootstrap-blog-template/
+  * Updated: Aug 08 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body>
-<div>
-    <img src="images/LOGO_CDMX.png" width="300" height="180" >
-</div>
 
-</body>
+<body class="index-page">
 
-<body>
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
 
-    <!-- Barra de navegaci�n -->
-    <nav>
-        <a href="#" onclick="showTab('acerca')">Acerca de</a>
-        <a href="#" onclick="showTab('informacion')">Informaci�n</a>
-        <a href="#" onclick="showTab('descarga')">Descarga</a>
-    </nav>
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">SOS MUJERES LINEA *765</h1>
+      </a>
 
-    <!-- Contenido -->
-    <div class="content">
-        <div id="acerca" class="tab-content active">
-            <h2>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">INICIO</a></li>
+          <li><a href="analisis.html">ANÁLISIS</a></li>
+          <li><a href="contact.html">CONTACTO</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
 
-<iframe title="reporte_de_sismo" width="1000" height="873.5" src="https://app.powerbi.com/view?r=eyJrIjoiNmIyNGI1NzMtMDIxMC00MjQ5LWI2MzAtMzhhNTlkODI1ZjcwIiwidCI6ImY0ZjdhY2E5LWI0MWYtNDYyYS1hOTJlLWFlMmNiZGM2YmFmMyJ9" frameborder="0" allowFullScreen="true"></iframe>
-            </h2>
-            <p>
-
+      <div class="header-social-links">
+          <img src="images/LOGO_CDMX.png" width="300" height="180" >
 
 
-            Este es un proyecto de ejemplo para demostrar c�mo crear una p�gina con pesta�as utilizando HTML, CSS y JavaScript.</p>
+ <!--  
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    
+-->
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Slider Section -->
+
+    <!--
+    <section id="slider" class="slider section dark-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "centeredSlides": true,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              }
+            }
+          </script>
+
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide" style="background-image: url('images/MUJERES.png') ;" >
+            </div>
+
+            <div class="swiper-slide" style="background-image: url('images/coordinacionSOSM_.jpg');">
+            </div>
+
+            <div class="swiper-slide" style="background-image: url('images/MUJERES.png');">
+            </div>
+
+            <div class="swiper-slide" style="background-image: url('images/MUJERES.png');">
+            </div>
         
+          </div>
 
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
         </div>
+      </div>
+    </section>
+
+-->
+    <!-- /Slider Section -->
+
+
+
+    <!-- Culture Category Section -->
+    <section id="culture-category" class="culture-category section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <div class="section-title-container d-flex align-items-center justify-content-between">
+          <p></p>
+        </div>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+          <div class="col-md-9">
+
+            <div class="d-lg-flex post-entry">
+              <a href="blog-details.html" class="me-4 thumbnail mb-4 mb-lg-0 d-inline-block">
+                <img src="images/CDMX.jpg" alt="" class="img-fluid">
+              </a>
+              <div>
+              
+                <h3><a href="">¿Que es la linea de atención a mujeres #765?</a></h3>
+                <p>La Línea de Atención SOS Mujeres 765 es un servicio de emergencia telefónica en la Ciudad de México (CDMX), diseñado para ofrecer apoyo y asistencia inmediata a mujeres que se encuentran en situación de violencia o peligro. Esta línea está específicamente orientada a brindar ayuda en situaciones de violencia de género, proporcionando un acceso rápido a recursos de emergencia, orientación legal, psicológica, y apoyo en general.</p>             
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="post-list border-bottom">
+                  <a href="blog-details.html"><img src="images/765.jpg" alt="" class="img-fluid"></a>
+                  
+
+                  <h2 class="mb-2"><a href="blog-details.html">Número de Emergencia: 765</a></h2>
+                  <p class="mb-4 d-block">Es un número telefónico al que las mujeres pueden llamar en cualquier momento, de manera gratuita y confidencial. El número está disponible las 24 horas del día, los 7 días de la semana.</p>
+                </div>
+
+              
+              </div>
+              <div class="col-lg-8">
+                <div class="post-list">
+                  <a href="blog-details.html"><img src="images/thumb_4282_640_360_0_0_crop.png" alt="" class="img-fluid"></a>
+                 
+                  <h2 class="mb-2"><a href="blog-details.html">¿Por qué es importante?</a></h2>
+                
+                  <p class="mb-4 d-block">La violencia de género es un problema grave que afecta a muchas mujeres en todo el mundo, y en la CDMX no es una excepción. Tener una línea de emergencia como la SOS Mujeres 765 es vital para ofrecer a las víctimas una vía rápida y segura para buscar apoyo en situaciones de riesgo. Además, es una herramienta de visibilidad y sensibilización sobre la problemática de la violencia de género.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-md-3">
+
+            <div class="post-list border-bottom">
+              <h2 class="mb-2"><a href="blog-details.html">¿Cómo funciona?</a></h2>
+              <p>Las mujeres pueden marcar el número 765 y serán atendidas de inmediato.</p>
+              <p>Dependiendo de la naturaleza de la llamada (violencia física, psicológica, económica, sexual, etc.), el operador proporcionará diferentes tipos de asesoría.</p>
+              <p>Si la situación lo requiere, se puede contactar a las autoridades o a otros servicios especializados para proporcionar asistencia inmediata.</p>
+              <span class="author mb-3 d-block"></span>
+
+               <div class="post-meta"><span class="date">  </span> <span class="mx-1">••••••••••••••</span> <span> </span></div>
+
+
+              <h2 class="mb-2"><a href="blog-details.html">¿Cómo funciona?</a></h2>
+              <p>Las mujeres pueden marcar el número 765 y serán atendidas de inmediato.</p>
+              <p>Dependiendo de la naturaleza de la llamada (violencia física, psicológica, económica, sexual, etc.), el operador proporcionará diferentes tipos de asesoría.</p>
+              <p>Si la situación lo requiere, se puede contactar a las autoridades o a otros servicios especializados para proporcionar asistencia inmediata.</p>
+              <span class="author mb-3 d-block"></span>
+
+            </div>
+
         
-        <div id="informacion" class="tab-content">
-            <h2>Informaci�n</h2>
-            <p>Aqu� encontrar�s informaci�n importante sobre c�mo usar este sitio web y sus funcionalidades.
-<iframe title="reporte_de_sismo" width="1140" height="541.25" src="https://app.powerbi.com/view?r=eyJrIjoiNmIyNGI1NzMtMDIxMC00MjQ5LWI2MzAtMzhhNTlkODI1ZjcwIiwidCI6ImY0ZjdhY2E5LWI0MWYtNDYyYS1hOTJlLWFlMmNiZGM2YmFmMyJ9" frameborder="0" allowFullScreen="true"></iframe>
-            </p>
+          </div>
+
         </div>
 
-        <div id="descarga" class="tab-content">
-            <h2>Descarga</h2>
-            <p>Descarga los archivos necesarios desde aqu�: <a href="#">Enlace de descarga</a></p>
+      </div>
+
+    </section><!-- /Culture Category Section -->
+
+    <!-- Business Category Section -->
+    <section id="business-category" class="business-category section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <div class="section-title-container d-flex align-items-center justify-content-between">
+           <h2>           </h2>
+          <p><a href="https://gobierno.cdmx.gob.mx/noticias/linea-sos-mujeres-765/">Más información</a></p>
         </div>
+      </div><!-- End Section Title -->
+
+    </section><!-- /Business Category Section -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+   
+    <div class="container copyright text-center mt-4">
     </div>
 
-    <script>
-        // Funci�n para cambiar entre pesta�as
-        function showTab(tabId) {
-            // Ocultar todas las pesta�as
-            var tabs = document.querySelectorAll('.tab-content');
-            tabs.forEach(function(tab) {
-                tab.classList.remove('active');
-            });
-            
-            // Mostrar la pesta�a seleccionada
-            var selectedTab = document.getElementById(tabId);
-            selectedTab.classList.add('active');
-        }
-    </script>
+  </footer>
 
- <script>
-        function loadHTML() {
-            // Usar fetch para cargar el archivo HTML
-            fetch('acerca.html')
-                .then(response => response.text())
-                .then(data => {
-                    // Inserta el acerca del archivo dentro del div
-                    document.getElementById('acerca').innerHTML = data;
-                })
-                .catch(error => {
-                    console.error('Error al cargar el archivo:', error);
-                    document.getElementById('acerca').innerHTML = '<p>Error al cargar el acerca.</p>';
-                });
-        }
-    </script>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
-    
+
 </html>
-
-
